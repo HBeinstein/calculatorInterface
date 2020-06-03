@@ -1,12 +1,6 @@
-function calculator() {
-  
-}
-
-
-
-
-
-
+  ("ul").on("click", "li", function() {
+    $("img").toggle();
+  })
 
 let num1 = "";
 let num2 = "";
