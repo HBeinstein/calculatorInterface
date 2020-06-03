@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  height: 100vh;
+  width: 35em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+.displayPane {
+  grid-column: 1/5;
+  width: 100%;
+  background-color: #1c1234;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, sans-serif; 
+  font-size: 20px;
+}
+
+.displayPane div {
+  border: none !important;
+}
+
+.container div {
+  width: 100fr;
+  height: 100fr;
+  border: .2px solid #f3f4f6;
+}
+
+.equalsButton {
+  grid-column: 1/3;
+}
+
+.equalsButton button, .oneButton button, .twoButton button, .threeButton button, .fourButton button, .fiveButton button, .sixButton button, .sevenButton button, .eightButton button, .nineButton button, .zeroButton button, .multButton button, .divButton button, .addButton button, .subButton button {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, sans-serif; 
+  font-size: 20px;
+}
+
+.addButton button, .subButton button, .divButton button, .multButton button {
+  background-color: #eb9219;
+}
+
+button {
+  border: none;
+  /* outline: none; */
+}
